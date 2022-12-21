@@ -19,6 +19,15 @@ Add to PATH (optional)
 export PATH=/your/folder/unicode_decoder:$PATH
 ```
 
+### Usage:
+
+```bash
+escapes-fucker.py path/to/text/file.txt
+```
+By this command the new file with decoded text will be created in path/to/text with name decoded_file.txt
+
+Also it will warks with .json, .md and other
+
 ### ToDo:
 * add string input mode
 * make distributet packages 
