@@ -7,3 +7,18 @@ simple script to translate literal escape codes to Unicode
 * output: "ООО СК «Сбербанк страхование»"
 
 ### Instalation:
+
+```bash
+git clone git@github.com:dwarf133/unicode_decoder.git
+```
+```bash
+sudo chmod +x /your/folder/unicode_decoder/escapes-fucker.py 
+```
+Add to PATH (optional)
+```bash
+export PATH=/your/folder/unicode_decoder:$PATH
+```
+
+### ToDo:
+* add string input mode
+* make distributet packages 
